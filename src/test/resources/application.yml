@@ -1,0 +1,14 @@
+server:
+ port: 8088
+ servlet-path: / 	
+logging:
+ level:
+  org:
+   springframework:
+    web: DEBUG
+   jr:
+    controller: DEBUG
+    service: DEBUG
+   eclipse:
+    jetty:
+     http: DEBUG

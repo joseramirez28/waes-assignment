@@ -1,0 +1,15 @@
+server:
+ port: 8088
+ servlet-path: /
+ 
+logging:
+ level:
+  org:
+   springframework:
+    web: DEBUG
+   jr:
+    waes: DEBUG
+   eclipse:
+    jetty:
+     http: INFO
+ file: "target/log/waes-service.log"
